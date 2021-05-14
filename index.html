@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool Surf Spots | Home</title>
+    <meta name="Cool Surf Spots" content="Cool Surf Spots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fc5aa7aa22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">   
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="index_header-active">
+      <a href="index.html">
+        <div class="logo"></div>
+      </a>
+      <label class="costum-menu" for="hamburger-menu">
+        <i></i>
+        <i></i>
+        <i></i>
+    </label>
+      <input type="checkbox" id="hamburger-menu" />
+    <!--<label class="hamburger-label" for="hamburger-menu"
+    ><i class="fas fa-bars"></i>
+    </label>
+      <input type="checkbox" id="hamburger-menu" />-->
+      <nav class="index_nav-active">
+        <ul>
+          <li><a class="nav-active"  href="index.html">Home</a></li>
+          <li><a class="hover-nav" href="blog.html">Blog</a></li>
+          <li><a class="hover-nav" href="about.html">About</a></li>
+          <li><a class="hover-nav"  href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="tagline-background-container">
+            <div class="tagline-background"></div>
+            <!--<div class="tagline tagline-first-line">Cool surf spots</div>
+            <div class="tagline tagline-second-line">around the globe</div>-->
+            <div class="tagline tagline-first-line">Cool Surf Spots</div>
+            <div class="tagline tagline-second-line">around the</div>
+            <div class="tagline-earth-icon"></div>
+        </div>
+        <!-- Crazy waves section -->
+        <div class="crazy-waves-container">
+          <div class="crazy-waves-item crazy-waves-item1">
+            <div class="tagline tagline-crazy-waves-header" onclick="crazyWaveSlideLink(1)">Three Crazy Spots</div>
+          </div>
+          <div class="crazy-waves-item crazy-waves-item2"></div>
+          <div class="crazy-waves-item crazy-waves-item3">
+            <ul class="crazy-waves-list">
+              <li><a onclick="crazyWaveSlideLink(1)">Bear Island, Svalbard and Jan Mayen</a></li>
+              <li><a onclick="crazyWaveSlideLink(2)">Munich, Germany</a></li>
+              <li><a onclick="crazyWaveSlideLink(3)">Skeleton Coast, Namibia</a></li> 
+            </ul>
+          </div>
+          <div class="crazy-waves-item crazy-waves-item4"></div>
+
+          <div id="modal-slideshow-crazy-waves" class="modal-slideshow-crazy-waves-container">
+            <span class="crazy-waves-modal-close">&#10005</span>
+            <div class="modal-slideshow-crazy-waves-mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <h2 class="modal-slideshow-crazy-waves-title">Bear Island, Svalbard and Jan Maye</h2>
+              <div class="crazy-waves-spesific-flex-container">
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-slide1-item1"><h2>Where</h2></div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-slide1-item2"></div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-item3">
+                  <h2>Facts</h2>
+                  <p><b>Area: </b>178 square kilometres</p>
+                  <p><b>Elavation above sea: </b>536 meters</p>
+                  <p><b>Country: </b>Norway</p>
+                  <p><b>Surfing dangers: </b>Polar bears</p>
+                </div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-item4">
+                  <h2>Description</h2>
+                  <p>Empty waves and spectacular scenery, but be aware of the polar bears. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mauris lectus. Donec facilisis at nisi id malesuada. Morbi dapibus a purus 
+                    eu scelerisque. Nullam vel leo in eros pulvinar vulputate et nec nibh. Mauris iaculis elit at lectus ultricies, a finibus sem commodo. 
+                  </p>
+                  <p>
+                    Nulla condimentum sapien ac est laoreet, id scelerisque magna tempor. Donec tempor massa orci, id pulvinar nibh dictum sit amet. In in efficitur dui. Sed 
+                    bibendum ipsum in urna ultricies cursus. Vivamus feugiat ultrices tellus nec ornare. Curabitur ornare, augue non maximus mollis, magna ex congue neque, 
+                    vitae porta ligula odio eget augue.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-slideshow-crazy-waves-mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <h2 class="modal-slideshow-crazy-waves-title">Munich, Germany</h2>
+              <div class="crazy-waves-spesific-flex-container">
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-slide2-item1"><h2>Where</h2></div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-slide2-item2"></div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-item3">
+                  <h2>Facts</h2>
+                  <p><b>Area: </b>310,7 square kilometres</p>
+                  <p><b>Elavation above sea: </b>519 meters</p>
+                  <p><b>Country: </b>Germany</p>
+                  <p><b>Surfing dangers: </b>The flow rate is about 20 tons per second</p>
+                </div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-item4">
+                  <h2>Description</h2>
+                  <p>More than 100 surfers ride this standing wave on the Eisbach River every day. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mauris lectus. Donec facilisis at nisi id malesuada. Morbi dapibus a purus 
+                    eu scelerisque. Nullam vel leo in eros pulvinar vulputate et nec nibh. Mauris iaculis elit at lectus ultricies, a finibus sem commodo. 
+                  </p>
+                  <p>
+                    Nulla condimentum sapien ac est laoreet, id scelerisque magna tempor. Donec tempor massa orci, id pulvinar nibh dictum sit amet. In in efficitur dui. Sed 
+                    bibendum ipsum in urna ultricies cursus. Vivamus feugiat ultrices tellus nec ornare. Curabitur ornare, augue non maximus mollis, magna ex congue neque, 
+                    vitae porta ligula odio eget augue.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-slideshow-crazy-waves-mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <h2 class="modal-slideshow-crazy-waves-title">Skeleton Coast, Namibia</h2>
+              <div class="crazy-waves-spesific-flex-container">
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-slide3-item1"><h2>Where</h2></div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-slide3-item2"></div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-item3">
+                  <h2>Facts</h2>
+                  <p><b>Area: </b>20 000 square kilometres</p>
+                  <p><b>Elavation above sea: </b>0 meters</p>
+                  <p><b>Country: </b>Namibia</p>
+                  <p><b>Surfing dangers: </b>Strong currents, and sharks</p>
+                </div>
+                <div class="crazy-waves-spesific-flex-item crazy-waves-spesific-flex-item-item4">
+                  <h2>Description</h2>
+                  <p>The Skeleton Coast is one of the most inaccessible surf spots in the world.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mauris lectus. Donec facilisis at nisi id malesuada. Morbi dapibus a purus 
+                    eu scelerisque. Nullam vel leo in eros pulvinar vulputate et nec nibh. Mauris iaculis elit at lectus ultricies, a finibus sem commodo. 
+                  </p>
+                  <p>
+                    Nulla condimentum sapien ac est laoreet, id scelerisque magna tempor. Donec tempor massa orci, id pulvinar nibh dictum sit amet. In in efficitur dui. Sed 
+                    bibendum ipsum in urna ultricies cursus. Vivamus feugiat ultrices tellus nec ornare. Curabitur ornare, augue non maximus mollis, magna ex congue neque, 
+                    vitae porta ligula odio eget augue.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a id="crazy-waves-modal-prev" onclick="countSlide(-1)" class="prev">&#10094;</a>
+            <a id="crazy-waves-modal-next" onclick="countSlide(1)" class="next">&#10095;</a>
+          </div>
+        </div>
+
+        <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <div class="mySlides1 fade">
+            <div class="loader"></div>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <div class="mySlides2 fade">
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <div class="mySlides3 fade">
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <div class="mySlides4 fade">
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a id="blog-prev" onclick="plusSlides(-1)" class="prev">&#10094;</a>
+        <a id="blog-next" onclick="plusSlides(1)" class="next">&#10095;</a>
+
+      </div>
+      <!-- The dots/circles -->
+      <div class="dot-container" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+
+    
+      
+     
+      
+
+     
+      
+    </main>
+    <footer>
+      <a class="project-link" href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Nikkilauda87.git" target="_blank">Project Exam 1 GitHub </a>
+    </footer>
+    <script src="js/components/menu.js"></script>
+    <script src="js/components/message.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
 

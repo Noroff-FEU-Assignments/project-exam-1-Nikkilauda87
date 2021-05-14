@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool Surf Spots | Contact</title>
+    <meta name="Cool Surf Spots" content="Cool Surf Spots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fc5aa7aa22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">   
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="index_header-active">
+      <a href="index.html">
+        <div class="logo"></div>
+      </a>
+      <label class="costum-menu" for="hamburger-menu">
+        <i></i>
+        <i></i>
+        <i></i>
+    </label>
+      <input type="checkbox" id="hamburger-menu" />
+    <!--<label class="hamburger-label" for="hamburger-menu"
+    ><i class="fas fa-bars"></i>
+    </label>
+      <input type="checkbox" id="hamburger-menu" />-->
+      <nav class="index_nav-active">
+        <ul>
+          <li><a class="hover-nav"  href="index.html">Home</a></li>
+          <li><a class="hover-nav" href="blog.html">Blog</a></li>
+          <li><a class="hover-nav" href="about.html">About</a></li>
+          <li><a class="nav-active"  href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+          
+        <div class="contact-container">
+            <form id="contactForm" class="contacForm-container">
+
+                <div id ="form-part1" class="form-part">
+                  <div class="form-subject">
+                    <label for="fullName">
+                      <span class="formFirstLine">Full name</span>
+                      <span class="formSecondLine">(Should be more than 5 characters long)</span>
+                    </label>
+                  </div>
+                  <div class="form-input">
+                    <input type="text" name="fullName" id="fullName" />
+                    <div class="form-accept" id="nameAccept">&#10003</div>
+                    <div class="form-error" id="fullNameError">Your name must be at least 5 characters</div>
+                  </div>
+                </div>
+
+                <div id ="form-part2" class="form-part">
+                  <div class="form-subject">
+                    <label for="email">
+                      <span class="formFirstLine">Email</span>
+                      <span class="formSecondLine">(Must be a valid email address)</span>
+                    </label>
+                  </div>
+                  <div class="form-input">
+                    <input type="text" name="email" id="email" />
+                    <div class="form-accept" id="emailAccept">&#10003</div>
+                    <div class="form-error" id="emailError">Please enter a valid email address</div>
+                  </div>
+                </div>
+
+                <div id ="form-part3" class="form-part">
+                  <div class="form-subject">
+                    <label for="subject">
+                      <span class="formFirstLine">Subject</span>
+                      <span class="formSecondLine">(minimum 15 characters)</span>
+                    </label>
+                  </div>
+                  <div class="form-input">
+                    <input type="text" name="subject" id="subject" />
+                    <div class="form-accept" id="subjectAccept">&#10003</div>
+                    <div class="form-error" id="subjectError">Your subject must be at least 15 characters</div>
+                  </div>
+                </div>
+
+                <div id="form-part4" class="form-part">
+                  <div class="form-subject">
+                    <label for="message">
+                      <span class="formFirstLine">Message </span>
+                      <span class="formSecondLine">(minimum 25 characters)</span>
+                    </label>
+                  </div>
+                  <div class="form-input">
+                    <textarea name="message" id="message"></textarea>
+                    <div class="form-accept" id="messageAccept">&#10003</div>
+                    <div class="form-error form-error-message" id="messageError">Your message must be at least 25 characters</div>
+                  </div>
+                </div>
+
+                <div id="form-part5" class="form-part">
+                  <div></div>
+                  <div class="submit-button-container">
+                    <input id ="formButton" class="btn contact-button" type="submit" value="Send">
+                  </div>
+                </div>
+                
+            </form>
+        </div> 
+        
+             
+    </main>
+    <footer>
+      <a class="project-link" href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Nikkilauda87.git" target="_blank">Project Exam 1 GitHub </a>
+    </footer>
+    <script src="js/components/menu.js"></script>
+    <script src="js/components/message.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
